@@ -5,3 +5,46 @@
 }
 
 /* body */
+
+body {
+    font-size: 14px;
+    background-color: #F6F8FA;
+}
+
+body div {
+    padding: 15px 30px;
+}
+
+.container-nav {
+    width: 80%;
+    margin: 50px auto auto;
+    background-color: green;
+}
+
+.container-main {
+    width: 80%;
+    margin: 2px auto auto;
+    background-color: aqua;
+}
+
+/* header */
+
+section img {
+    vertical-align: top;
+}
+
+#header-logo {
+    padding: 20px 30px;
+    background-color: white;
+}
+
+#titolo-logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* nav */
+
+.button {
+    padding: 3px;
+}
