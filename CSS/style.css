@@ -71,8 +71,8 @@ section img {
     border-bottom-right-radius: 10px;
 }
 
-h1 {
-
+.section-space {
+    padding-top: 15px;
 }
 
 .correct {
