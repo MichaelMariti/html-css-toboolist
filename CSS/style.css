@@ -11,23 +11,10 @@ body {
     background-color: #F6F8FA;
 }
 
-body div {
-    padding: 15px 30px;
-}
 
-.container-nav {
-    width: 80%;
-    margin: 50px auto auto;
-    background-color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
 
-.container-main {
-    width: 80%;
-    margin: 2px auto auto;
-    background-color: aqua;
-}
+
+
 
 /* header */
 
@@ -46,6 +33,15 @@ section img {
 }
 
 /* nav */
+
+.container-nav {
+    width: 80%;
+    margin: 50px auto auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 40px;
+}
 
 .button {
     padding: 4px;
@@ -66,18 +62,55 @@ section img {
 
 /* main */
 
+.container-main {
+    width: 80%;
+    margin: 4px auto auto;
+    background-color: white;
+    padding: 15px 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
 .tasks {
     color: black;
     font-size: 15px;
-    font-weight: 800;
+    font-weight: 100;
     display: inline-block;
     padding: 15px;
-    margin: 0;
 }
 
 .side-buttons {
     display: inline-block;
     font-size: 12px;
     background-color: orange;
-    padding: 4px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.sb-blue {
+    background-color: #4AA3EC;
+}
+
+.sb-purple {
+    background-color: #9971DF;
+}
+
+.sb-green {
+    background-color: #65C2A8;
+}
+
+.sb-pink {
+    background-color: #D2679F;
 }
