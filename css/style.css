@@ -48,6 +48,10 @@ button {
     border-radius: 0 0 10px 10px;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 .checkmark {
     display: inline;
 }
@@ -72,11 +76,27 @@ li span {
     margin-top: 5px;
     color: white;
     font-size: 12px;
-    
+    margin-left: 10px;
 }
 
 .purple {
-    background-color: purple;
+    background-color: #AB5DE6;
+}
+
+.green {
+    background-color: #2CC6AB;
+}
+
+.orange {
+    background-color: #FF9B00;
+}
+
+.red {
+    background-color: #EC4A9D;
+}
+
+.lime {
+    background-color: #A3D116;
 }
 
 .cross {
