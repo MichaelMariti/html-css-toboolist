@@ -9,4 +9,76 @@
 .container {
     max-width: 800px;
     margin: 0 auto;
+    background-color: white;
+}
+
+
+/* BODY */
+#logo {
+    padding: 10px 24px;
+}
+
+
+/* MAIN */
+main {
+    background-color: #F6F8F9;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: solid 2px grey;
+}
+
+#blue-btn {
+    background-color: #14AAF5;
+    border: none;
+    color: white;
+}
+
+.top {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom {
+    margin-top: 5px;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.checkmark {
+    display: inline;
+}
+
+ul li {
+    list-style: none;
+}
+
+li span {
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    padding: 3px;
+    color: greenyellow;
+    font-size: 10px;
+}
+
+.label {
+    background-color: #09A9ED;
+    padding: 6px 9px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.cross {
+    color: red;
+    border: red solid 1px;
 }
