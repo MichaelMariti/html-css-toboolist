@@ -18,11 +18,17 @@
     padding: 10px 24px;
 }
 
-
-/* MAIN */
-main {
+body {
     background-color: #F6F8F9;
 }
+
+header {
+    background-color: white;
+}
+
+
+/* MAIN */
+
 
 button {
     padding: 5px 10px;
@@ -44,7 +50,7 @@ button {
 
 .bottom {
     margin-top: 5px;
-    padding: 10px 20px;
+    padding: 30px;
     border-radius: 0 0 10px 10px;
 }
 
